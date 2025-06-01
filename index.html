@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>San Andreas Medical Services</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #111;
+      color: white;
+    }
+    header {
+      background-color: red;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #222;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    main {
+      padding: 2rem;
+    }
+    footer {
+      background-color: #222;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    form {
+      background-color: #1a1a1a;
+      padding: 1rem;
+      border-radius: 8px;
+      max-width: 600px;
+      margin: 2rem auto;
+    }
+    label {
+      display: block;
+      margin-top: 1rem;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+      border: none;
+      border-radius: 4px;
+    }
+    button {
+      margin-top: 1rem;
+      background-color: red;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    iframe {
+      width: 100%;
+      border: none;
+      margin-top: 1rem;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>San Andreas Medical Services</h1>
+    <p>Serving the citizens of San Andreas with pride and professionalism.</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#join">Join Us</a>
+    <a href="#roster">Roster</a>
+    <a href="#resources">Resources</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="home">
+      <h2>Welcome to S.A.M.S.</h2>
+      <p>Providing top-tier emergency medical care across the state of San Andreas.</p>
+      <iframe src="https://discord.com/widget?id=YOUR_DISCORD_SERVER_ID&theme=dark" height="400" allowtransparency="true" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>San Andreas Medical Services is committed to rapid response and professional care in every emergency situation. Our certified EMTs and paramedics are trained to the highest standard.</p>
+    </section>
+
+    <section id="join">
+      <h2>Join S.A.M.S.</h2>
+      <form action="#" method="POST">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="discord">Discord Username</label>
+        <input type="text" id="discord" name="discord" required />
+
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" required />
+
+        <label for="experience">Prior EMS or RP Experience</label>
+        <textarea id="experience" name="experience" rows="4" required></textarea>
+
+        <label for="why">Why do you want to join?</label>
+        <textarea id="why" name="why" rows="4" required></textarea>
+
+        <button type="submit">Submit Application</button>
+      </form>
+    </section>
+
+    <section id="roster">
+      <h2>Roster</h2>
+      <p>Coming soon! This will display active medics and their ranks.</p>
+    </section>
+
+    <section id="resources">
+      <h2>Resources</h2>
+      <ul>
+        <li><a href="#">Standard Operating Procedures (SOP)</a></li>
+        <li><a href="#">Training Material</a></li>
+        <li><a href="#">Shift Schedule</a></li>
+      </ul>
+      <h3>Training Video</h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" title="EMS Training Video" allowfullscreen></iframe>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>For questions or assistance, please reach out on our Discord server or contact a supervisor in-game.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 San Andreas Medical Services | Part of YourServerName RP</p>
+  </footer>
+</body>
+</html>
